@@ -11,7 +11,7 @@ const SidebarMenuButtons = ({
 }) => {
   return (
     <>
-      {hasStore && (
+{/*       {hasStore && (
         <SidebarMenuButton asChild>
           <CustomLink
             to="/store"
@@ -34,7 +34,7 @@ const SidebarMenuButtons = ({
             </div>
           </CustomLink>
         </SidebarMenuButton>
-      )}
+      )} */}
       <SidebarMenuButton asChild>
         <Button
           unstyled

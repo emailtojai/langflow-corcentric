@@ -124,7 +124,7 @@ export const AccountMenu = () => {
               </HeaderMenuItemLink>
             )}
           </HeaderMenuItemsSection>
-          <HeaderMenuItemsSection>
+         {/*  <HeaderMenuItemsSection>
             {ENABLE_DATASTAX_LANGFLOW ? (
               <HeaderMenuItemLink
                 newPage
@@ -155,7 +155,7 @@ export const AccountMenu = () => {
                 Join the Langflow Discord
               </span>
             </HeaderMenuItemLink>
-          </HeaderMenuItemsSection>
+          </HeaderMenuItemsSection> */}
           {ENABLE_DATASTAX_LANGFLOW ? (
             <HeaderMenuItemsSection>
               <HeaderMenuItemLink href="/session/logout" icon="log-out">
