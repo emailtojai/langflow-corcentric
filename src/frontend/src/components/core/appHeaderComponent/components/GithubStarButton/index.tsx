@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 export const GithubStarComponent = () => {
   const stars: number | undefined = useDarkStore((state) => state.stars);
 
-  return (
+  /* return (
     <ShadTooltip content="Go to Github repo" side="bottom" styleClasses="z-10">
       <div className="group inline-flex h-8 items-center justify-center gap-1 rounded-md border bg-muted px-2 pr-0 hover:border-input hover:bg-secondary-hover">
         <FaGithub className="h-4 w-4" />
@@ -15,7 +15,7 @@ export const GithubStarComponent = () => {
         </div>
       </div>
     </ShadTooltip>
-  );
+  ); */
 };
 
 export default GithubStarComponent;

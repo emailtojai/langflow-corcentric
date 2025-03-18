@@ -137,7 +137,7 @@ export default function AppHeader(): JSX.Element {
           </ShadTooltip>
         </AlertDropdown>
         {!ENABLE_DATASTAX_LANGFLOW && (
-          <>
+          <>{/* 
             <ShadTooltip
               content="Go to Langflow Store"
               side="bottom"
@@ -157,7 +157,7 @@ export default function AppHeader(): JSX.Element {
                 />
                 <span className="hidden whitespace-nowrap">Store</span>
               </Button>
-            </ShadTooltip>
+            </ShadTooltip> */}
             <Separator
               orientation="vertical"
               className="my-auto h-7 dark:border-zinc-700"

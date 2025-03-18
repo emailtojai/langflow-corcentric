@@ -4,7 +4,7 @@ services:
     name: langflow
     runtime: docker
     dockerfilePath: ./docker/render.Dockerfile
-    repo: https://github.com/langflow-ai/langflow
+    repo: https://github.com/langflow-ai/langflowww
     branch: main
     plan: standard
     healthCheckPath: /health_check
