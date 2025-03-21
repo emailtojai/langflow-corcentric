@@ -389,7 +389,7 @@ def print_banner(host: str, port: int) -> None:
         package_name, package_name, is_prerelease=any("pre-release" in notice for notice in notices)
     )
 
-    title = f"[bold]Welcome to Corcentric AI Builder[/bold]\n"
+    title = f"[bold]Welcome to FlowCentric[/bold]\n"
     info_text = (
         "Powered by Corcentric AI"
     )
@@ -404,7 +404,7 @@ def print_banner(host: str, port: int) -> None:
 
 
 def run_langflow(host, port, log_level, options, app) -> None:
-    """Run CorAIBuilder server on localhost."""
+    """Run FlowCentric server on localhost."""
     if platform.system() == "Windows":
         import uvicorn
 
